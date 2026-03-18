@@ -1,0 +1,43 @@
+Orientações:
+Clone o projeto usando o vs code
+Crie um diretório chamado "atividade 1" dentro do caminho atividades -> pasta com seu nome 
+Resolva as 5 questões a seguir e em seguida faça um commit e um push para o projeto
+Certifique-se de criar arquivos somente dentro de sua pasta
+
+Exercício 1 – Classe e Instanciação com Validação Básica
+Implemente uma classe Produto com os atributos nome e preco. Utilize encapsulamento e crie validações para impedir valores inválidos. Em seguida, crie um programa principal que instancie objetos e exiba seus dados.
+Requisitos:
+ * Atributos privados
+ * Getter para ambos
+ * Setter com validação
+ * Preço deve ser maior que zero
+
+Exercício 2 – Uso de Construtor e Estado Inicial Válido
+Implemente uma classe Aluno com atributos nome, matricula e notaFinal. Utilize construtor para garantir que o objeto seja criado em estado válido.
+Requisitos:
+ * Validação no construtor
+ * Matrícula deve ter pelo menos 5 caracteres
+ * Nota entre 0 e 10
+
+Exercício 3 – Métodos com Regra de Negócio
+Crie uma classe ContaBancaria com operações de depósito e saque, garantindo regras de integridade.
+Requisitos:
+ * Atributo saldo privado
+ * Método depositar
+ * Método sacar
+ * Não permitir saldo negativo
+
+Exercício 4 – Sistema com Múltiplos Objetos
+Desenvolva um sistema que armazene vários produtos em uma lista e exiba seus dados.
+Requisitos:
+ * Uso de ArrayList
+ * Criação de múltiplos objetos
+ * Iteração com laço de repetição
+
+Exercício 5 – Sistema Integrado
+Implemente uma classe Funcionario com controle de salário e aumento.
+Requisitos:
+ * Atributos privados
+ * Salário mínimo obrigatório
+ * Método para aumento percentual
+ * Não permitir aumento negativo
