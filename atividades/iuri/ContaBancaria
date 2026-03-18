@@ -1,0 +1,24 @@
+public class contaBancaria{
+    private double salario;
+    public class saldo(double saldoinicial){
+        if(saldoInicial > 0){
+            throw new illegalArgumentException("Saldo inicial inválido");
+        }
+        this.saldo = saldoInicial;
+    }
+    public double getSaldo(){
+        return saldo;
+    }
+    public void depositar(double valor){
+        if(valor <= 0){
+            throw new illegalArgumentException("Depósito innválido");
+        }
+        saldo += valor;
+    }
+    public void sacar(double valor){
+        if(valor <= 0 || valor > saldo){
+            throw new illegalArgumentException("Depósito innválido");
+        }
+        saldo -= valor;
+    }
+}
