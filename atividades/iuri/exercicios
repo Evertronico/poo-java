@@ -1,0 +1,22 @@
+public class Produto{
+    private String nome;
+    private double preco;
+    public class String getNome(){
+        return nome;
+    }
+    public class double getPreco(){
+        return preco;
+    }
+    public void setNome(String nome){
+        if(nome == null || nome.isEmpty()){
+            throw new illegalArgumentException("Nome Inválido");
+        }
+        this.nome =nome;
+    }
+    public void setPreco(double preco){
+        if(preco <= 0){
+            throw new illegalArgumentException("Nome Inválido");
+        }
+        this.preco = preco;
+    }
+}
