@@ -1,0 +1,30 @@
+public class aluno{
+    private String nome;
+    private String matricula;
+    private double notaFinal;
+    public aluno(string nome, String matricula, double notaFinal){
+        if(nome == null || nome.isEmpty()){
+            throw new illegalArgumentException("Nome Invalálido");
+        }
+        if(matricula <=5){
+            throw new illegalArgumentException("Matricula inválida");
+        }
+        if(nota < 0 || notaFinal > 10){
+            throw new illegalArgumentException("Nota inválida");
+        }
+        this.nome = nome;
+        this.matricula = matricula;
+        this.notaFinal = notaFinal;
+        public String getNome() {
+            return nome;
+        }
+
+        public String getMatricula() {
+            return matricula;
+        }
+
+        public double getNotaFinal() {
+            return notaFinal;
+        }    
+    }
+}
