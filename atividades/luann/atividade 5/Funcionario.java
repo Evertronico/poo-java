@@ -34,7 +34,7 @@ public class Empresa {
     }
 
 
-    public double getAumento(){
+    public double getAumento(){ ///// oiiiiiii loooooo
         return this.aumento;
     }
 
