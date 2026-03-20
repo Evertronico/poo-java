@@ -1,0 +1,13 @@
+
+<?php
+$lista = [
+    ["nome" => "Ana"],
+    ["nome" => "Claudia"],
+    ["nome"=> "Roberto"],
+    ["nome"=> "Roberta"],
+    ["nome"=> "inácio"],
+];
+foreach ($lista as $item){
+    echo "<p>{$item['nome']}</p>"
+}
+?>
